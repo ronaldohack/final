@@ -1,0 +1,259 @@
+﻿<!doctype html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Citudo</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <link rel="stylesheet" href="lib/font-awesome-4.7.0/css/font-awesome.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        
+    </head>
+    <body id="meuBody">
+
+        
+    	<header class="black">
+        	<div id="centralizar_cabecalho">
+            	<img alt="logo" src="img/logo_branco.png" >
+                <nav id="menu" >
+                	<ul>
+                    	<a href="#banner" class="menu1"><li>Início</li></a>
+                        <a href="#about_us" class="menu2"><li>Sobre</li></a>
+                        <a href="#portifolio" class="menu3"><li>Descubra</li></a>
+                        <a href="#posts" class="menu4 menu_download"><li></li>Download</a>
+                        <a href="#contato" class="menu5"><li></li>Contato</a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="principal">
+        	<div id="banner">
+            	<div id="texto_do_banner">
+               		
+                   <div><h1 class="citudo">CiTudo</h1></div>
+                    <div><h2 class="citu">explore São Paulo e conheça os melhores lugares da cidade .</h2></div>
+                    <button class="botao_verde" type="button">Conheça</button>
+                </div>
+            </div>
+            <section id="about_us">
+            	<div id="centralizar_about_us">
+					<h2>Sobre Nós</h2>
+                    <hr>
+					<div id="grupo_itens_about_us">
+						<div class="itens_do_about_us um">
+							
+                            <div class="binoc"><i class="fa fa-binoculars" id="bino"></i></div>
+							
+							<p>O site CiTudo tem a idéia de mostrar a cidade de São Paulo para as pessoas <br> que não conhecem os principais pontos e desejam desfrutar de todas as opções da cidade.</p>
+						</div>
+                        
+					</div>
+				</div>
+				<div id="imagem_about_us">
+					<div id="centralizar_imagem_about_us">
+                    	<div id="texto_do_about_us">
+                        	<h2>Encontre os melhores restaurantes de Sp.</h2>
+							<p>Descubra restaurantes com comidas típicas do Brasil inteiro, pizzarias <br> mais famosas de São Paulo com diversos sabores para você aproveitar <br> ao máximo essa cidade maravilhosa.</p>
+							<p>Para quem curte comer bem, a cidade de São Paulo é um paraíso! A capital abriga todos os tipos de gastronomias e também com preços variados. Mas não só de restaurantes vive a cidade, há também um montão de eventos gastronômicos que agitam São Paulo durante o ano todo!</p> 
+                            <div id="limite_botoes_about_us">
+                            	<button class="botao_verde" type="button" style="margin: 0 40%;">Saiba mais</button>                      
+                            </div>
+                        </div>
+                        <div id="imagem_do_centralizar_about_us">
+                        	<img alt="#" src="img/what-we-do-right-image.png">
+                        </div>                        
+					</div>
+				</div>
+			</section>
+            <section id="portifolio">
+            	<div id="centralizar_portifolio">
+                	<h2>Descubra</h2>
+                    <hr>
+                    <div id="lista_portifolio">
+                    	<ul>
+                        	<li onclick="mostrarImagens('.tec', '.work', '.city', '.nat')">Todos</li>
+                            <li onclick="ocutarImagens('.tec') mostrarImagens('.tec')">Natureza</li>
+                            <li onclick="ocutarImagens('.work')">Workspace</li>
+                            <li onclick="ocutarImagens('.city')">Cidade</li>
+                            <li onclick="ocutarImagens('.nat')">Tecnologia</li>
+                        </ul>
+                    </div>
+                     <div id="galeria_portifolio">
+                    	<div class="item_galeria_portifolio work tec">
+                          <a href="aquario.html"> <img alt="#" src="img/aquario.png"></a>
+                            <div>
+                            	<a href="img/aquariogrande.jpeg">
+                                	<i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item_galeria_portifolio work tec">
+                                <div>
+                                        <a href="img/liberdadegrande.jpg">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                    </div>
+                           <a href="liberdade.html"> <img alt="#" src="img/liberdade.png"></a>
+                            
+                        </div>
+                        <div class="item_galeria_portifolio work tec">
+                          <a href="centro.html">  <img alt="#" src="img/rokero.png"></a>
+                            <div>
+                            	<a href="img/portfolio_big_03.jpg">
+                                	<i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="item_galeria_portifolio city">
+                           <a href="casa-das-rosas.html"> <img alt="#" src="img/parque_1.png"></a>
+                            <div>
+                            	<a href="img/portfolio_big_04.jpg">
+                                	<i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item_galeria_portifolio nat">
+                           <a href="pacaembu.html"> <img alt="#" src="img/pacaembu.png"></a>
+                            <div>
+                            	<a href="img/portfolio_big_05.jpg">
+                                	<i class="fa fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="item_galeria_portifolio tec">
+                           <a href="teatro.html"> <img alt="#" src="img/teatro.png"></a>
+                            <div>
+                            	<a href="img/portfolio_big_06.jpg">
+                                	<i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item_galeria_portifolio city">
+                           <a href="museu.html"> <img alt="#" src="img/museu.png"></a>
+                            <div>
+                            	<a href="img/portfolio_big_07.jpg">
+                                	<i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item_galeria_portifolio work">
+                            <img alt="#" src="img/masp2.jpg" class="masp">
+                            <div>
+                            	<a href="img/portfolio_big_08.jpg">
+                                	<i class="fa fa-search"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>           
+			</section>
+            <section id="posts">
+            	<div id="imagem_posts">
+            		<div id="centralizar_imagem_posts">
+                              
+                            <div>
+                                    <h1 class="descrito">baixe o app CiTudo</h1> 
+                                <p  class="descritos">com ele você pode encontrar diversos lugades em São Paulo na palma da sua mão. <br>
+                                visite os principais pontos da cidade, festivais entre muitas outras atrações .
+                                </p>
+                                
+                         </div>                   
+                        <div id="blog_posts" style="display:flex">
+                               
+                           
+                        </div>
+                            <div>
+                                <img class="galaxy" src="img/galaxy.png">
+                                <img class="google" src="img/google.png" >
+                             </div>
+                            <div>
+                               
+                            </div>
+                      <div >
+                        
+                      
+                        </div>
+                        
+                                     
+                </div>
+                
+            </section>
+            <section id="contato">
+            	<div id="centralizar_contato">
+                	<h2>Contato</h2>
+                    <hr>
+                    <div id="itens_contato">
+                    	<div class="item_contato">
+                        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.1729176395306!2d-46.46937174247391!3d-23.610489764432906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6884b805f20f%3A0x86cb6c0ed7b030fc!2sR.+Lua%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1512135249548" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="item_contato">
+                        	<form id="form_contato" method="post" action="contato.php">
+                            	<div>
+                                	<input type="text" name="nome" placeholder="Seu nome...">
+                               		<input type="email" name="email" placeholder="Seu email...">
+                                </div>
+                                <textarea placeholder="Envie sua mensagem...">
+                                </textarea>
+                               	<input type="submit" class="botao_verde" value="Enviar" >
+                            </form>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        
+        <footer>
+        	<div id="centralizar_rodape">
+            	<p>Copyright &copy; <a href="index.html" style="color: #A2CF8E;">Citudo</a></p>
+                <ul id="midias">
+                <li>
+                	<a href="#">
+                    	<i class="fa fa-facebook">
+                    	</i>
+					</a>
+				</li>
+                <li>
+                	<a href="#">
+                    	<i class="fa fa-instagram">
+                    	</i>
+					</a>
+				</li>                
+                <li>
+                	<a href="#">
+                    	<i class="fa fa-linkedin">
+                    	</i>
+					</a>
+				</li>               
+                <li>
+                	<a href="#">
+                    	<i class="fa fa-rss">
+                    	</i>
+					</a>
+				</li>      
+                <li>
+                	<a href="index.html#posts">
+                    	<i class="fa fa-arrow-down">
+                    	</i>
+					</a>
+				</li>	
+                </ul>
+            </div>
+        </footer>
+        <script src="script/script.js"></script>
+        
+    </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
